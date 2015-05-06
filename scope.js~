@@ -1,0 +1,12 @@
+//william decker
+//q0 scope.js
+
+a = 1;
+
+function foo() {
+	var a = 2;
+}
+
+console.log(a);
+foo();
+console.log(a);
